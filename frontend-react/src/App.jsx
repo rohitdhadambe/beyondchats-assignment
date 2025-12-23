@@ -228,30 +228,30 @@ function App() {
 
               {article.source_url !== "N/A" && (
                 <a
-                  href={article.source_url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{
-                    display: "inline-flex",
-                    alignItems: "center",
-                    fontSize: "14px",
-                    fontWeight: "600",
-                    color: "#3b82f6",
-                    textDecoration: "none",
-                    transition: "all 0.2s ease",
-                    padding: "8px 16px",
-                    background: "rgba(59, 130, 246, 0.1)",
-                    borderRadius: "8px",
-                    border: "1px solid rgba(59, 130, 246, 0.2)"
-                  }}
-                  onMouseEnter={(e) => {
-                    e.currentTarget.style.background = "rgba(59, 130, 246, 0.2)";
-                    e.currentTarget.style.transform = "translateX(4px)";
-                  }}
-                  onMouseLeave={(e) => {
-                    e.currentTarget.style.background = "rgba(59, 130, 246, 0.1)";
-                    e.currentTarget.style.transform = "translateX(0)";
-                  }}
+                href="https://beyondchats.com/blogs/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  display: "inline-flex",
+                  alignItems: "center",
+                  fontSize: "14px",
+                  fontWeight: "600",
+                  color: "#3b82f6",
+                  textDecoration: "none",
+                  transition: "all 0.2s ease",
+                  padding: "8px 16px",
+                  background: "rgba(59, 130, 246, 0.1)",
+                  borderRadius: "8px",
+                  border: "1px solid rgba(59, 130, 246, 0.2)"
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.background = "rgba(59, 130, 246, 0.2)";
+                  e.currentTarget.style.transform = "translateX(4px)";
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.background = "rgba(59, 130, 246, 0.1)";
+                  e.currentTarget.style.transform = "translateX(0)";
+                }}
                 >
                   Read Full Article
                   <svg
@@ -268,6 +268,7 @@ function App() {
                     />
                   </svg>
                 </a>
+
               )}
             </article>
           ))}
