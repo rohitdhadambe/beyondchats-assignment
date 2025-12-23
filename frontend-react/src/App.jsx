@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const API = "http://127.0.0.1:8000/api/articles";
+const API = "https://beyondchats-assignment-sxi8.onrender.com/api/articles";
 
 function App() {
   const [articles, setArticles] = useState([]);
